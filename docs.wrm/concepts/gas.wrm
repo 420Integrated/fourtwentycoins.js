@@ -1,0 +1,12 @@
+_section: Smoke @<smoke>
+
+Explain attack vectors
+
+_subsection: Smoke Price @<smoke-price>
+
+The smoke price is used somewhat like a bid, indicating an amount
+you are willing to pay (per unit of execution) to have your transaction
+processed.
+
+_subsection: Smoke Limit @<smoke-limit>
+

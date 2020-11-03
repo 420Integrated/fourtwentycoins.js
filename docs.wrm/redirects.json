@@ -1,0 +1,960 @@
+{
+  "fourtwentycoins.js/html/api-advanced.html":
+    { "path": "/v5/api/utils/" },
+  "fourtwentycoins.js/html/api-advanced.html#abi-coder":
+    { "tag": "AbiCoder" },
+  "fourtwentycoins.js/html/api-advanced.html#api-interface":
+    { "tag": "Interface" },
+  "fourtwentycoins.js/html/api-advanced.html#creating-an-instance":
+    { "tag": "Interface--creating" },
+  "fourtwentycoins.js/html/api-advanced.html#creating-instances":
+    { "tag": "AbiCoder--creating" },
+  "fourtwentycoins.js/html/api-advanced.html#cryptographic-operations":
+    { "tag": "SigningKey" },
+  "fourtwentycoins.js/html/api-advanced.html#deriving-child-and-neutered-nodes":
+    { "tag": "HDNode--methods" },
+  "fourtwentycoins.js/html/api-advanced.html#descriptions":
+    { "tag": "Interface--parsing" },
+  "fourtwentycoins.js/html/api-advanced.html#hdnode":
+    { "tag": "HDNode" },
+  "fourtwentycoins.js/html/api-advanced.html#interface":
+    { "tag": "Interface" },
+  "fourtwentycoins.js/html/api-advanced.html#low-level-api":
+    { "path": "/v5/api/utils/" },
+  "fourtwentycoins.js/html/api-advanced.html#object-test-functions":
+    { "tag": "Interface" },
+  "fourtwentycoins.js/html/api-advanced.html#parsing-objects":
+    { "tag": "Interface--parsing" },
+  "fourtwentycoins.js/html/api-advanced.html#prototype":
+    { "tag": "AbiCoder--methods" },
+  "fourtwentycoins.js/html/api-advanced.html#id3":
+    { "tag": "Interface" },
+  "fourtwentycoins.js/html/api-advanced.html#id5":
+    { "tag": "Provider" },
+  "fourtwentycoins.js/html/api-advanced.html#id8":
+    { "tag": "SigningKey" },
+  "fourtwentycoins.js/html/api-advanced.html#provider-sub-classing":
+    { "tag": "Provider" },
+  "fourtwentycoins.js/html/api-advanced.html#recursive-length-prefixed-encoding-rlp":
+    { "tag": "rlp--methods" },
+  "fourtwentycoins.js/html/api-advanced.html#signing-key":
+    { "tag": "SigningKey" },
+  "fourtwentycoins.js/html/api-advanced.html#static-methods":
+    { "tag": "HDNode--methods" },
+  "fourtwentycoins.js/html/api-advanced.html#id6":
+    { "tag": "rlp--methods" },
+  "fourtwentycoins.js/html/api-advanced.html#static-properties":
+    { "tag": "AbiCoder--creating" },
+  "fourtwentycoins.js/html/api-contract.html":
+    { "tag": "Contract" },
+  "fourtwentycoins.js/html/api-contract.html#api-contract":
+    { "tag": "Contract" },
+  "fourtwentycoins.js/html/api-contract.html#application-binary-interface-abi":
+    { "tag": "abi-formats" },
+  "fourtwentycoins.js/html/api-contract.html#bytes":
+    { "tag": "Contract-functionsCall" },
+  "fourtwentycoins.js/html/api-contract.html#configuring-events":
+    { "tag": "Contract--events" },
+  "fourtwentycoins.js/html/api-contract.html#connecting":
+    { "tag": "ContractFactory-attach" },
+  "fourtwentycoins.js/html/api-contract.html#connecting-to-a-contract":
+    { "tag": "Contract--creating" },
+  "fourtwentycoins.js/html/api-contract.html#connecting-to-existing-contracts":
+    { "tag": "Contract--creating" },
+  "fourtwentycoins.js/html/api-contract.html#contract-abi":
+    { "tag": "abi-formats" },
+  "fourtwentycoins.js/html/api-contract.html#contract-event-filters":
+    { "tag": "Contract--filters" },
+  "fourtwentycoins.js/html/api-contract.html#contract-filter":
+    { "tag": "Contract--filters" },
+  "fourtwentycoins.js/html/api-contract.html#contract-metaclass":
+    { "tag": "Contract--metaclass" },
+  "fourtwentycoins.js/html/api-contract.html#contract-methods":
+    { "tag": "Contract--methods" },
+  "fourtwentycoins.js/html/api-contract.html#contracts":
+    { "tag": "Contract" },
+  "fourtwentycoins.js/html/api-contract.html#creating-a-contract-factory":
+    { "tag": "ContractFactory--creating" },
+  "fourtwentycoins.js/html/api-contract.html#deploying-a-contract":
+    { "tag": "ContractFactory-deploy"  },
+  "fourtwentycoins.js/html/api-contract.html#deployment":
+    { "tag": "ContractFactory--methods" },
+  "fourtwentycoins.js/html/api-contract.html#event-emitter":
+    { "tag": "Contract--events" },
+  "fourtwentycoins.js/html/api-contract.html#event-names":
+    { "tag": "Contract--events" },
+  "fourtwentycoins.js/html/api-contract.html#event-object":
+    { "tag": "Contract--events" },
+  "fourtwentycoins.js/html/api-contract.html#filtering-events":
+    { "tag": "Contract--filters" },
+  "fourtwentycoins.js/html/api-contract.html#integers":
+    { "tag": "Contract-functionsCall" },
+  "fourtwentycoins.js/html/api-contract.html#meta-class-properties":
+    { "tag": "Contract--metaclass" },
+  "fourtwentycoins.js/html/api-contract.html#overrides":
+    { "tag": "Contract--metaclass" },
+  "fourtwentycoins.js/html/api-contract.html#prototype":
+    { "tag": "Contract--properties" },
+  "fourtwentycoins.js/html/api-contract.html#providers-vs-signers":
+    { "tag": "Contract-connect" },
+  "fourtwentycoins.js/html/api-contract.html#strings":
+    { "tag": "Bytes32String" },
+  "fourtwentycoins.js/html/api-contract.html#structs":
+    { "tag": "Contract--metaclass" },
+  "fourtwentycoins.js/html/api-contract.html#types":
+    { "tag": "Contract-functionsCall" },
+  "fourtwentycoins.js/html/api-contract.html#waiting-for-deployment":
+    { "tag": "ContractFactory" },
+  "fourtwentycoins.js/html/api-providers.html":
+    { "tag": "providers" },
+  "fourtwentycoins.js/html/api-providers.html#account":
+    { "tag": "Provider--account-methods" },
+  "fourtwentycoins.js/html/api-providers.html#api-provider":
+    { "tag": "Provider" },
+  "fourtwentycoins.js/html/api-providers.html#block-responses":
+    { "tag": "Provider--block-methods" },
+  "fourtwentycoins.js/html/api-providers.html#block-tag":
+    { "tag": "providers-BlockTag" },
+  "fourtwentycoins.js/html/api-providers.html#blockchain-status":
+    { "tag": "Provider--network-methods" },
+  "fourtwentycoins.js/html/api-providers.html#blockresponse":
+    { "tag": "providers-Block" },
+  "fourtwentycoins.js/html/api-providers.html#blocktag":
+    { "tag": "providers-BlockTag" },
+  "fourtwentycoins.js/html/api-providers.html#connecting-to-420coin":
+    { "tag": "providers-getDefaultProvider" },
+  "fourtwentycoins.js/html/api-providers.html#contract-execution":
+    { "tag": "Provider--transaction-methods" },
+  "fourtwentycoins.js/html/api-providers.html#contract-state":
+    { "tag": "Provider--account-methods" },
+  "fourtwentycoins.js/html/api-providers.html#dot420-naming-service":
+    { "tag": "Provider--ens-methods" },
+  "fourtwentycoins.js/html/api-providers.html#fourtwentyvm":
+    { "tag": "FourtwentyvmProvider" },
+  "fourtwentycoins.js/html/api-providers.html#fourtwentyvmprovider-inherits-from-provider":
+    { "tag": "FourtwentyvmProvider" },
+  "fourtwentycoins.js/html/api-providers.html#event-types":
+    { "tag": "Provider--events" },
+  "fourtwentycoins.js/html/api-providers.html#events":
+    { "tag": "Provider--events" },
+  "fourtwentycoins.js/html/api-providers.html#fallbackprovider-inherits-from-provider":
+    { "tag": "FallbackProvider" },
+  "fourtwentycoins.js/html/api-providers.html#filter":
+    { "tag": "Provider--events" },
+  "fourtwentycoins.js/html/api-providers.html#filters":
+    { "tag": "Provider--events" },
+  "fourtwentycoins.js/html/api-providers.html#infuraprovider-inherits-from-jsonrpcprovider":
+    { "tag": "InfuraProvider" },
+  "fourtwentycoins.js/html/api-providers.html#ipcprovider-inherits-from-jsonrpcprovider":
+    { "tag": "IpcProvider" },
+  "fourtwentycoins.js/html/api-providers.html#jsonrpcprovider":
+    { "tag": "JsonRpcProvider" },
+  "fourtwentycoins.js/html/api-providers.html#jsonrpcprovider-inherits-from-provider":
+    { "tag": "JsonRpcProvider" },
+  "fourtwentycoins.js/html/api-providers.html#jsonrpcsigner":
+    { "tag": "JsonRpcSigner" },
+  "fourtwentycoins.js/html/api-providers.html#log":
+    { "tag": "Provider--log-methods" },
+  "fourtwentycoins.js/html/api-providers.html#network":
+    { "tag": "Provider--network-methods" },
+  "fourtwentycoins.js/html/api-providers.html#objects-and-types":
+    { "path": "/v5/api/providers/types/" },
+  "fourtwentycoins.js/html/api-providers.html#properties":
+    { "tag": "Provider" },
+  "fourtwentycoins.js/html/api-providers.html#provider":
+    { "tag": "Provider" },
+  "fourtwentycoins.js/html/api-providers.html#provider-connect":
+    { "tag": "providers-getDefaultProvider" },
+  "fourtwentycoins.js/html/api-providers.html#provider-fourtwentyvm-extra":
+    { "tag": "FourtwentyvmProvider" },
+  "fourtwentycoins.js/html/api-providers.html#provider-fourtwentyvm-properties":
+    { "tag": "FourtwentyvmProvider" },
+  "fourtwentycoins.js/html/api-providers.html#provider-fallback-properties":
+    { "tag": "FallbackProvider" },
+  "fourtwentycoins.js/html/api-providers.html#provider-infura-properties":
+    { "tag": "InfuraProvider" },
+  "fourtwentycoins.js/html/api-providers.html#provider-ipc-properties":
+    { "tag": "IpcProvider" },
+  "fourtwentycoins.js/html/api-providers.html#provider-jsonrpc-extra":
+    { "tag": "JsonRpcProvider" },
+  "fourtwentycoins.js/html/api-providers.html#provider-jsonrpc-properties":
+    { "tag": "JsonRpcProvider" },
+  "fourtwentycoins.js/html/api-providers.html#provider-specific-extra-api-calls":
+    { "path": "/api/providers/other/" },
+  "fourtwentycoins.js/html/api-providers.html#provider-web3-properties":
+    { "tag": "Web3Provider" },
+  "fourtwentycoins.js/html/api-providers.html#providers":
+    { "path": "/v5/api/providers/" },
+  "fourtwentycoins.js/html/api-providers.html#signer-jsonrpc":
+    { "tag": "JsonRpcSigner" },
+  "fourtwentycoins.js/html/api-providers.html#transaction-receipt":
+    { "tag": "providers-TransactionReceipt" },
+  "fourtwentycoins.js/html/api-providers.html#transaction-receipts":
+    { "tag": "providers-TransactionReceipt" },
+  "fourtwentycoins.js/html/api-providers.html#transaction-request":
+    { "tag": "providers-TransactionRequest" },
+  "fourtwentycoins.js/html/api-providers.html#transaction-requests":
+    { "tag": "providers-TransactionRequest" },
+  "fourtwentycoins.js/html/api-providers.html#transaction-response":
+    { "tag": "providers-TransactionResponse" },
+  "fourtwentycoins.js/html/api-providers.html#waitfortransaction":
+    { "tag": "Provider-waitForTransaction" },
+  "fourtwentycoins.js/html/api-providers.html#waiting-for-transactions":
+    { "tag": "Provider-waitForTransaction" },
+  "fourtwentycoins.js/html/api-providers.html#web3provider-inherits-from-jsonrpcprovider":
+    { "tag": "Web3Provider" },
+  "fourtwentycoins.js/html/api-utils.html":
+    { "path": "/v5/api/utils/" },
+  "fourtwentycoins.js/html/api-utils.html#addresses":
+    { "tag": "addresses" },
+  "fourtwentycoins.js/html/api-utils.html#arrayish":
+    { "tag": "Bytes" },
+  "fourtwentycoins.js/html/api-utils.html#big-numbers":
+    { "tag": "BigNumber" },
+  "fourtwentycoins.js/html/api-utils.html#bignumber":
+    { "tag": "BigNumber" },
+  "fourtwentycoins.js/html/api-utils.html#bytes32-strings":
+    { "tag": "Bytes32String" },
+  "fourtwentycoins.js/html/api-utils.html#bytes32string":
+    { "tag": "Bytes32String" },
+  "fourtwentycoins.js/html/api-utils.html#constants":
+    { "tag": "constants" },
+  "fourtwentycoins.js/html/api-utils.html#creating-instances":
+    { "tag": "BigNumber--creating" },
+  "fourtwentycoins.js/html/api-utils.html#cryptographic-functions":
+    { "tag": "cryptographic-hash-functions" },
+  "fourtwentycoins.js/html/api-utils.html#elliptic-curve":
+    { "tag": "SigningKey" },
+  "fourtwentycoins.js/html/api-utils.html#420coin-strings-and-marley":
+    { "tag": "unit-conversion" },
+  "fourtwentycoins.js/html/api-utils.html#formatfourtwentycoin":
+    { "tag": "utils-formatUnits" },
+  "fourtwentycoins.js/html/api-utils.html#hash-function-helpers":
+    { "tag": "utils--hashing-helpers" },
+  "fourtwentycoins.js/html/api-utils.html#hash-functions":
+    { "tag": "cryptographic-hash-functions" },
+  "fourtwentycoins.js/html/api-utils.html#hex-strings":
+    { "tag": "HexString" },
+  "fourtwentycoins.js/html/api-utils.html#hexstring":
+    { "tag": "HexString" },
+  "fourtwentycoins.js/html/api-utils.html#key-derivation":
+    { "tag": "utils--hashing-helpers" },
+  "fourtwentycoins.js/html/api-utils.html#namehash":
+    { "tag": "utils-namehash" },
+  "fourtwentycoins.js/html/api-utils.html#parsefourtwentycoin":
+    { "tag": "utils-parseUnits" },
+  "fourtwentycoins.js/html/api-utils.html#random":
+    { "tag": "utils-randomBytes" },
+  "fourtwentycoins.js/html/api-utils.html#signature":
+    { "tag": "Signature" },
+  "fourtwentycoins.js/html/api-utils.html#signatures":
+    { "tag": "Signature" },
+  "fourtwentycoins.js/html/api-utils.html#solidity":
+    { "tag": "utils--solidity-hashing" },
+  "fourtwentycoins.js/html/api-utils.html#transactions":
+    { "tag": "transactions--functions" },
+  "fourtwentycoins.js/html/api-utils.html#utf-8-strings":
+    { "tag": "strings-utf8" },
+  "fourtwentycoins.js/html/api-utils.html#utf8-strings":
+    { "tag": "strings-utf8" },
+  "fourtwentycoins.js/html/api-utils.html#utilities":
+    { "path": "/v5/api/utils/" },
+  "fourtwentycoins.js/html/api-utils.html#utils-getaddress":
+    { "tag": "utils-getAddress" },
+  "fourtwentycoins.js/html/api-utils.html#web":
+    { "tag": "web" },
+  "fourtwentycoins.js/html/api-wallet.html":
+    { "tag": "Wallet" },
+  "fourtwentycoins.js/html/api-wallet.html#blockchain-operations":
+    { "tag": "Signer--blockchain-methods" },
+  "fourtwentycoins.js/html/api-wallet.html#creating-instances":
+    { "tag": "Wallet" },
+  "fourtwentycoins.js/html/api-wallet.html#encrypted-json-wallets":
+    { "tag": "Wallet--methods" },
+  "fourtwentycoins.js/html/api-wallet.html#fromencryptedjson":
+    { "tag": "Wallet-fromEncryptedJson" },
+  "fourtwentycoins.js/html/api-wallet.html#prototype":
+    { "tag": "Wallet--properties" },
+  "fourtwentycoins.js/html/api-wallet.html#sendtransaction":
+    { "tag": "Signer-sendTransaction" },
+  "fourtwentycoins.js/html/api-wallet.html#signer":
+    { "tag": "Signer" },
+  "fourtwentycoins.js/html/api-wallet.html#signer-api":
+    { "tag": "Signer" },
+  "fourtwentycoins.js/html/api-wallet.html#signing":
+    { "tag": "Signer--signing-methods" },
+  "fourtwentycoins.js/html/api-wallet.html#wallet":
+    { "tag": "Wallet" },
+  "fourtwentycoins.js/html/api-wallet.html#wallet-connect":
+    { "tag": "Signer-connect" },
+  "fourtwentycoins.js/html/api-wallet.html#wallets-and-signers":
+    { "tag": "signers" },
+  "fourtwentycoins.js/html/api.html":
+    { "tag": "api" },
+  "fourtwentycoins.js/html/api.html#api":
+    { "tag": "api" },
+  "fourtwentycoins.js/html/api.html#application-programming-interface-api":
+    { "tag": "api" },
+  "fourtwentycoins.js/html/cookbook-accounts.html":
+    { "path": "/v5/cookbook/" },
+  "fourtwentycoins.js/html/cookbook-accounts.html#access-funds-in-a-mnemonic-phrase-wallet":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-accounts.html#accounts":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-accounts.html#coalesce-jaxx-wallets":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-accounts.html#dump-all-json-wallet-balances-in-current-directory":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-accounts.html#get-transaction-history":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-accounts.html#random-mnemonic":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-accounts.html#sweep-an-account-into-another":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-contracts.html":
+    { "path": "/v5/cookbook/" },
+  "fourtwentycoins.js/html/cookbook-contracts.html#contracts":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-contracts.html#economic-incentives-and-economic-value":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-contracts.html#return-a-value-from-a-state-changing-method":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-providers.html":
+    { "path": "/v5/cookbook/" },
+  "fourtwentycoins.js/html/cookbook-providers.html#custom-provider":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-providers.html#metamask":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-providers.html#providers":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-providers.html#testrpc-ganache":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-react.html":
+    { "path": "/v5/cookbook/" },
+  "fourtwentycoins.js/html/cookbook-react.html#other-notes":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-react.html#react-native":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-react.html#shims":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-react.html#wordlists":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-signing.html":
+    { "path": "/v5/cookbook/" },
+  "fourtwentycoins.js/html/cookbook-signing.html#signing-a-digest-hash":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-signing.html#signing-a-string-message":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-signing.html#signing-messages":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-testing.html":
+    { "path": "/v5/cookbook/" },
+  "fourtwentycoins.js/html/cookbook-testing.html#contract-events":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-testing.html#testing":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook-testing.html#using-multiple-accounts":
+    { "tag": "" },
+  "fourtwentycoins.js/html/cookbook.html":
+    { "path": "/v5/cookbook/" },
+  "fourtwentycoins.js/html/cookbook.html#cookbook":
+    { "tag": "" },
+  "fourtwentycoins.js/html/getting-started.html":
+    { "tag": "getting-started" },
+  "fourtwentycoins.js/html/getting-started.html#getting-started":
+    { "tag": "getting-started" },
+  "fourtwentycoins.js/html/getting-started.html#importing":
+    { "tag": "importing" },
+  "fourtwentycoins.js/html/getting-started.html#including-in-web-applications":
+    { "tag": "importing" },
+  "fourtwentycoins.js/html/getting-started.html#installing-in-node-js":
+    { "tag": "installing" },
+  "fourtwentycoins.js/html/index.html":
+    { "path": "/v5/" },
+  "fourtwentycoins.js/html/index.html#features":
+    { "tag": "features" },
+  "fourtwentycoins.js/html/index.html#legacy-documentation":
+    { "tag": "documentation--legacy" },
+  "fourtwentycoins.js/html/index.html#what-is-fourtwentycoins-js":
+    { "tag": "preamble" },
+  "fourtwentycoins.js/html/migration.html":
+    { "path": "/v5/migration/" },
+  "fourtwentycoins.js/html/migration.html#big-number":
+    { "tag": "" },
+  "fourtwentycoins.js/html/migration.html#constants":
+    { "tag": "" },
+  "fourtwentycoins.js/html/migration.html#custom-signer":
+    { "tag": "" },
+  "fourtwentycoins.js/html/migration.html#default-provider":
+    { "tag": "" },
+  "fourtwentycoins.js/html/migration.html#deploying-contracts":
+    { "tag": "" },
+  "fourtwentycoins.js/html/migration.html#encrypted-wallets":
+    { "tag": "" },
+  "fourtwentycoins.js/html/migration.html#events":
+    { "tag": "" },
+  "fourtwentycoins.js/html/migration.html#fetching-json":
+    { "tag": "" },
+  "fourtwentycoins.js/html/migration.html#interfaces":
+    { "tag": "" },
+  "fourtwentycoins.js/html/migration.html#jsonrpcprovider":
+    { "tag": "" },
+  "fourtwentycoins.js/html/migration.html#migrating-from-fourtwentycoins-v3-to-fourtwentycoins-v4":
+    { "tag": "" },
+  "fourtwentycoins.js/html/migration.html#migrating-from-web3-to-fourtwentycoins-v4":
+    { "tag": "" },
+  "fourtwentycoins.js/html/migration.html#migration-guides":
+    { "tag": "" },
+  "fourtwentycoins.js/html/migration.html#networks":
+    { "tag": "" },
+  "fourtwentycoins.js/html/migration.html#parsing-transactions":
+    { "tag": "" },
+  "fourtwentycoins.js/html/migration.html#verifying-messages":
+    { "tag": "" },
+  "fourtwentycoins.js/html/migration.html#waiting-for-transactions":
+    { "tag": "" },
+  "fourtwentycoins.js/html/notes.html":
+    { "path": "/v5/" },
+  "fourtwentycoins.js/html/notes.html#checksum-address":
+    { "tag": "address-formats" },
+  "fourtwentycoins.js/html/notes.html#contributing":
+    { "path": "/v5/contributing/" },
+  "fourtwentycoins.js/html/notes.html#icap-address":
+    { "tag": "address-formats" },
+  "fourtwentycoins.js/html/notes.html#ieee754":
+    { "tag": "BigNumber--notes-safenumbers" },
+  "fourtwentycoins.js/html/notes.html#memory-hard-brute-force-encrpyting":
+    { "tag": "security--pbkdf" },
+  "fourtwentycoins.js/html/notes.html#notes":
+    { "tag": "/v5/" },
+  "fourtwentycoins.js/html/notes.html#promise":
+    { "tag": "" },
+  "fourtwentycoins.js/html/notes.html#promises":
+    { "tag": "" },
+  "fourtwentycoins.js/html/notes.html#responsible-disclosure":
+    { "path": "/v5/contributing/" },
+  "fourtwentycoins.js/html/notes.html#security":
+    { "tag": "security" },
+  "fourtwentycoins.js/html/notes.html#supported-platforms":
+    { "tag": "" },
+  "fourtwentycoins.js/html/notes.html#the-github-and-npm-package":
+    { "tag": "" },
+  "fourtwentycoins.js/html/notes.html#why-can-t-i-just-use-numbers":
+    { "tag": "BigNumber--notes-safenumbers" },
+  "fourtwentycoins.js/html/testing.html":
+    { "path": "/v5/testing/" },
+  "fourtwentycoins.js/html/testing.html#testing":
+    { "path": "/v5/testing/" },
+  "fourtwentycoins.js/v3.0/examples/splitter/index.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/examples/splitter/index.html" },
+  "fourtwentycoins.js/v3.0/examples/tool/index.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/examples/tool/index.html" },
+  "fourtwentycoins.js/v3.0/examples/wallet/index.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/examples/wallet/index.html" },
+  "fourtwentycoins.js/v3.0/html/api-advanced.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/html/api-advanced.html" },
+  "fourtwentycoins.js/v3.0/html/api-contract.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/html/api-contract.html" },
+  "fourtwentycoins.js/v3.0/html/api-providers.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/html/api-providers.html" },
+  "fourtwentycoins.js/v3.0/html/api-utils.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/html/api-utils.html" },
+  "fourtwentycoins.js/v3.0/html/api-wallet.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/html/api-wallet.html" },
+  "fourtwentycoins.js/v3.0/html/api.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/html/api.html" },
+  "fourtwentycoins.js/v3.0/html/cookbook.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/html/cookbook.html" },
+  "fourtwentycoins.js/v3.0/html/genindex.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/html/genindex.html" },
+  "fourtwentycoins.js/v3.0/html/getting-started.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/html/getting-started.html" },
+  "fourtwentycoins.js/v3.0/html/index.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/html/index.html" },
+  "fourtwentycoins.js/v3.0/html/notes.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/html/notes.html" },
+  "fourtwentycoins.js/v3.0/html/search.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/html/search.html" },
+  "fourtwentycoins.js/v3.0/html/testing.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/html/testing.html" },
+  "fourtwentycoins.js/v3.0/index.html":
+    { "redirect": "https://docs-legacy.fourtwentycoins.io/v3/index.html" },
+  "fourtwentycoins.js/v5-beta/about-420coin.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/about-420coin.html#fourtwenty-basics":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#abi-coder":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#api-interface":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#creating-an-instance":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#creating-instances":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#cryptographic-operations":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#deriving-child-and-neutered-nodes":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#descriptions":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#hdnode":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#interface":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#low-level-api":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#object-test-functions":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#parsing-objects":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#prototype":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#provider-sub-classing":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#recursive-length-prefixed-encoding-rlp":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#signing-key":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#static-methods":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-advanced.html#static-properties":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#api-contract":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#application-binary-interface-abi":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#bytes":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#configuring-events":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#connecting":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#connecting-to-a-contract":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#connecting-to-existing-contracts":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#contract-abi":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#contract-event-filters":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#contract-filter":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#contract-metaclass":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#contract-methods":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#contracts":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#creating-a-contract-factory":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#deploying-a-contract":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#deployment":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#event-emitter":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#event-names":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#event-object":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#filtering-events":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#integers":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#meta-class-properties":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#overrides":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#prototype":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#providers-vs-signers":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#strings":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#structs":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#types":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-contract.html#waiting-for-deployment":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#account":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#api-provider":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#block-responses":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#block-tag":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#blockchain-status":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#blockresponse":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#blocktag":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#connecting-to-420coin":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#contract-execution":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#contract-state":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#dot420-naming-service":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#fourtwentyvmprovider-inherits-from-provider":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#event-types":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#events":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#fallbackprovider-inherits-from-provider":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#filter":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#filters":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#infuraprovider-inherits-from-jsonrpcprovider":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#ipcprovider-inherits-from-jsonrpcprovider":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#jsonrpcprovider-inherits-from-provider":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#jsonrpcsigner":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#log":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#network":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#nodesmithprovider-inherits-from-jsonrpcprovider":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#objects-and-types":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#properties":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#provider":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#provider-connect":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#provider-jsonrpc":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#provider-specific-properties-and-methods":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#providers":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#signer-jsonrpc":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#signer-uncheckedjsonrpc":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#transaction-receipt":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#transaction-receipts":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#transaction-request":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#transaction-requests":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#transaction-response":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#uncheckedjsonrpcsigner":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#waitfortransaction":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#waiting-for-transactions":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-providers.html#web3provider-inherits-from-jsonrpcprovider":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#addresses":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#arrayish":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#big-numbers":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#bignumber":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#bytes32-strings":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#bytes32string":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#constants":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#creating-instances":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#cryptographic-functions":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#elliptic-curve":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#420coin-strings-and-marley":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#formatfourtwentycoin":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#hash-function-helpers":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#hash-functions":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#hex-strings":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#hexstring":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#key-derivation":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#namehash":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#parsefourtwentycoin":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#random":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#signature":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#signatures":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#solidity":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#transactions":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#utf-8-strings":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#utf8-strings":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#utilities":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#utils-getaddress":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-utils.html#web":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-wallet.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-wallet.html#blockchain-operations":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-wallet.html#creating-instances":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-wallet.html#encrypted-json-wallets":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-wallet.html#fromencryptedjson":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-wallet.html#prototype":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-wallet.html#sendtransaction":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-wallet.html#signer":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-wallet.html#signer-api":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-wallet.html#signing":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-wallet.html#void-signer":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-wallet.html#wallet":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-wallet.html#wallet-connect":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api-wallet.html#wallets-and-signers":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api.html#api":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/api.html#application-programming-interface-api":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/basics.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/basics.html#fourtwenty-basics":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-accounts.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-accounts.html#access-funds-in-a-mnemonic-phrase-wallet":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-accounts.html#accounts":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-accounts.html#coalesce-jaxx-wallets":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-accounts.html#dump-all-json-wallet-balances-in-current-directory":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-accounts.html#get-transaction-history":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-accounts.html#random-mnemonic":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-accounts.html#sweep-an-account-into-another":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-contracts.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-contracts.html#contracts":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-contracts.html#economic-incentives-and-economic-value":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-contracts.html#return-a-value-from-a-state-changing-method":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-providers.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-providers.html#custom-provider":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-providers.html#metamask":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-providers.html#providers":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-providers.html#testrpc-ganache":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-react.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-react.html#other-notes":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-react.html#react-native":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-react.html#shims":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-react.html#wordlists":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-signing.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-signing.html#signing-a-digest-hash":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-signing.html#signing-a-string-message":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-signing.html#signing-messages":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-testing.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-testing.html#contract-events":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-testing.html#testing":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook-testing.html#using-multiple-accounts":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/cookbook.html#cookbook":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/getting-started.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/getting-started.html#getting-started":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/getting-started.html#importing":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/getting-started.html#including-in-web-applications":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/getting-started.html#installing-in-node-js":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/index.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/index.html#features":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/index.html#legacy-documentation":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/index.html#what-is-fourtwentycoins-js":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#big-number":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#constants":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#custom-signer":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#default-provider":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#deploying-contracts":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#encrypted-wallets":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#events":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#fetching-json":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#interfaces":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#jsonrpcprovider":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#migrating-from-fourtwentycoins-v3-to-fourtwentycoins-v4":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#migrating-from-web3-to-fourtwentycoins-v4":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#migration-guides":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#networks":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#parsing-transactions":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#verifying-messages":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/migration.html#waiting-for-transactions":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/notes.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/notes.html#checksum-address":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/notes.html#contributing":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/notes.html#icap-address":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/notes.html#ieee754":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/notes.html#memory-hard-brute-force-encrpyting":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/notes.html#notes":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/notes.html#promise":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/notes.html#promises":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/notes.html#responsible-disclosure":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/notes.html#security":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/notes.html#supported-platforms":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/notes.html#the-github-and-npm-package":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/notes.html#why-can-t-i-just-use-numbers":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-aion.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-aion.html#addresses":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-aion.html#aion-network":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-aion.html#api":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-aion.html#avm-contracts":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-aion.html#differences-from-420coin":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-aion.html#elliptic-curve-cryptography":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-aion.html#fvm-contracts":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-aion.html#hashing":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-aion.html#hashing-algorithm":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-aion.html#serializing-transactions":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-aion.html#transactions":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-aion.html#wallet":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-ganache.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-ganache.html#ganache":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-react.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-react.html#react-native":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-truffle.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms-truffle.html#truffle":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/platforms.html#other-platform":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/testing.html":
+    { "tag": "" },
+  "fourtwentycoins.js/v5-beta/testing.html#testing":
+    { "tag": "" }
+}

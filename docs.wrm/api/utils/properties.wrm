@@ -1,0 +1,9 @@
+_section: Property Utilities
+
+_property: fourtwentycoins.utils.checkProperties() => void
+
+_property: fourtwentycoins.utils.deepCopy(anObject) => any
+_property: fourtwentycoins.utils.defineReadOnly(anObject, name, value) => void
+_property: fourtwentycoins.utils.getStatic(aConstructor, key) => any
+_property: fourtwentycoins.utils.resolveProperties(anObject) => Promise<any> @<utils-resolveproperties> @SRC<properties>
+_property: fourtwentycoins.utils.shallowCopy(anObject) => any

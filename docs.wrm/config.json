@@ -1,0 +1,15 @@
+{
+  "title": "fourtwentycoins",
+  "subtitle": "v5.0-beta",
+  "logo": "logo.svg",
+  "link": "https://docs-beta.fourtwentycoins.io",
+  "markdown": {
+      "banner": "-----\n\nDocumentation: [html](https://docs-beta.fourtwentycoins.io/)\n\n-----\n\n"
+  },
+  "source": {
+      "path": "../packages/",
+      "include": "packages/.*/src.ts/",
+      "exclude": "/node_modules/|src.ts/.*browser.*",
+      "link": "https://github.com/420integrated/fourtwentycoins.js/blob/fourtwentycoins-v5-beta/packages$FILENAME#L$LINE"
+  }
+}

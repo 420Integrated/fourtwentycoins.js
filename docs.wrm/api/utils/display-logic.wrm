@@ -1,0 +1,72 @@
+_section: Display Logic and Input
+
+When creating an Application, it is useful to convert between
+user-friendly strings (usually displaying **420coin**) and the
+machine-readable values that contracts and maths depend on
+(usually in **marley**).
+
+For example, a Wallet may specify the balance in 420coin, and
+smoke prices in gmarley for the User Interface, but when sending
+a transaction, both must be specified in marley.
+
+The [parseUnits](unit-conversion) will parse a string representing
+420coin, such as ``1.1`` into a [BigNumber](BigNumber) in marley, and is
+useful when a user types in a value, such as sending 1.1 420coin.
+
+The [formatUnits](unit-conversion) will format a [BigNumberish](BigNumberish)
+into a string, which is useful when displaying a balance.
+
+
+_subsection: Units
+
+_heading: Decimal Count
+
+A **Unit** can be specified as an number, which indicates the
+number of decimal places that should be used.
+
+**Examples:**
+
+- 1 420coin in marley, has **18** decimal places (i.e. 1 420coin represents 10^^18^^ marley)
+- 1 bitcoin in Satoshi, has **8** decimal places (i.e. 1 bitcoin represents 10^^8^^ satoshi)
+
+_heading: Named Units
+
+There are also several common **Named Units**, in which case their name (as
+a string) may be used.
+
+_table: @STYLE<compact>
+
+|  **Name**    |  **Decimals**  |
+|  //marley//     |      0         |
+|  //kmarley//    |      3         |
+|  //mmarley//    |      6         |
+|  //gmarley//    |      9         |
+|  //snoop//   |     12         |
+|  //willie//  |     15         |
+|  //420coin//   |     18         |
+
+
+_subsection: Functions
+
+_heading: Formatting
+
+_property: fourtwentycoins.utils.commify(value) => string  @<utils-commify> @SRC<units>
+Returns a string with value grouped by 3 digits, separated by ``,``.
+
+
+_heading: Conversion @<unit-conversion>
+
+_property: fourtwentycoins.utils.formatUnits(value [ , unit = "420coin" ] ) => string  @<utils-formatUnits> @SRC<units>
+Returns a string representation of //value// formatted with //unit//
+digits (if it is a number) or to the unit specified (if a string).
+
+_property: fourtwentycoins.utils.formatFourtwentycoin(value) => string  @<utils-formatFourtwentycoin> @SRC<units>
+The equivalent to calling ``formatUnits(value, "420coin")``.
+
+_property: fourtwentycoins.utils.parseUnits(value [ , unit = "420coin" ] ) => [BigNumber](BigNumber)  @<utils-parseUnits> @SRC<units>
+Returns a [BigNumber](BigNumber) representation of //value//, parsed with
+//unit// digits (if it is a number) or from the unit specified (if
+a string).
+
+_property: fourtwentycoins.utils.parseFourtwentycoin(value) => [BigNumber](BigNumber)  @<utils-parseFourtwentycoin> @SRC<units>
+The equivalent to calling ``parseUnits(value, "420coin")``.

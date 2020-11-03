@@ -1,0 +1,43 @@
+_section: Constants @<constants>
+
+The **fourtwentycoins.contants** Object contains commonly used values.
+
+
+_subsection: Bytes
+
+_property: fourtwentycoins.constants.AddressZero => string<[Address](address)>  @<constants-AddressZero> @SRC<constants>
+The Address Zero, which is 20 bytes (40 nibbles) of zero.
+
+_property: fourtwentycoins.constants.HashZero => string<[[DataHexString]]<32>>  @<constants-HashZero> @SRC<constants>
+The Hash Zero, which is 32 bytes (64 nibbles) of zero.
+
+
+_subsection: Strings
+
+_property: fourtwentycoins.constants.FourtwentycoinSymbol => string  @<constants-FourtwentycoinSymbol> @SRC<constants>
+The Fourtwentycoin symbol, **&Xi;**.
+
+
+_subsection: BigNumber
+
+_property: fourtwentycoins.constants.NegativeOne => [[BigNumber]]  @<constants-NegativeOne> @SRC<constants>
+The BigNumber value representing ``"-1"``.
+
+_property: fourtwentycoins.constants.Zero => [[BigNumber]]  @<constants-Zero> @SRC<constants>
+The BigNumber value representing ``"0"``.
+
+_property: fourtwentycoins.constants.One => [[BigNumber]]  @<constants-One> @SRC<constants>
+The BigNumber value representing ``"1"``.
+
+_property: fourtwentycoins.constants.Two => [[BigNumber]]  @<constants-Two> @SRC<constants>
+The BigNumber value representing ``"2"``.
+
+_property: fourtwentycoins.constants.MarleyPerFourtwentycoin => [[BigNumber]]  @<constants-MarleyPerFourtwentycoin> @SRC<constants>
+The BigNumber value representing ``"1000000000000000000"``, which is the
+number of Marley per 420coin.
+
+_property: fourtwentycoins.constants.MaxUint256 => [[BigNumber]]  @<constants-MaxUint256> @SRC<constants>
+The BigNumber value representing the maximum ``uint256`` value.
+
+
+

@@ -1,0 +1,189 @@
+_section: Hashing Algorithms @<hashing-algorithms>
+
+Explain what hash functions are?
+
+
+_subsection: Cryptographic Hash Functions @<cryptographic-hash-functions>
+
+The [Cryptographic Hash Functions](link-wiki-cryptographichash)
+are a specific family of hash functions.
+
+_property: fourtwentycoins.utils.id(text) => string<[[DataHexString]]<32>>  @<utils-id> @SRC<hash>
+The 420coin Identity function computes the [KECCAK256](link-wiki-sha3) hash of the //text// bytes.
+
+_property:  fourtwentycoins.utils.keccak256(aBytesLike) => string<[[DataHexString]]<32>>  @<utils-keccak256> @SRC<keccak256>
+Returns the [KECCAK256](link-wiki-sha3) digest //aBytesLike//.
+
+_property: fourtwentycoins.utils.ripemd160(aBytesLike) => string<[[DataHexString]]<20>>  @<utils-ripemd160> @SRC<sha2>
+Returns the [RIPEMD-160](link-wiki-ripemd) digest of //aBytesLike//.
+
+_property: fourtwentycoins.utils.sha256(aBytesLike) => string<[[DataHexString]]<32>>  @<utils-sha256> @SRC<sha2:function.sha256>
+Returns the [SHA2-256](link-wiki-sha2) digest of //aBytesLike//.
+
+_property: fourtwentycoins.utils.sha512(aBytesLike) => string<[[DataHexString]]<64>>  @<utils-sha512> @SRC<sha2:function.sha512>
+Returns the [SHA2-512](link-wiki-sha2) digest of //aBytesLike//.
+
+_code: KECCAK256 @lang<javascript>
+
+utils.keccak256([ 0x12, 0x34 ])
+//!
+
+utils.keccak256("0x")
+//!
+
+utils.keccak256("0x1234")
+//!
+
+// The value MUST be data, such as:
+//  - an Array of numbers
+//  - a data hex string (e.g. "0x1234")
+//  - a Uint8Array
+
+// Do NOT use UTF-8 strings that are not a DataHexstring
+utils.keccak256("hello world")
+//! error
+
+// If needed, convert strings to bytes first:
+utils.keccak256(utils.toUtf8Bytes("hello world"))
+//!
+
+// Or equivalently use the identity function:
+utils.id("hello world")
+//!
+
+// Keep in mind that the string "0x1234" represents TWO
+// bytes (i.e. [ 0x12, 0x34 ]. If you wish to compute the
+// hash of the 6 characters "0x1234", convert it to UTF-8
+// bytes first using utils.toUtf8Bytes.
+
+// Consider the following examples:
+
+// Hash of TWO (2) bytes:
+utils.keccak256("0x1234")
+//!
+
+// Hash of TWO (2) bytes: (same result)
+utils.keccak256([ 0x12, 0x34 ])
+//!
+
+const bytes = utils.toUtf8Bytes("0x1234");
+// <hide>
+bytes
+// </hide>
+//!
+
+// Hash of SIX (6) characters (different than above)
+utils.keccak256(bytes)
+//!
+
+// Hash of SIX (6) characters (same result)
+utils.id("0x1234")
+//!
+
+_code: RIPEMD160  @lang<javascript>
+
+utils.ripemd160("0x")
+//!
+
+utils.ripemd160("0x1234")
+//!
+
+_code: SHA-2  @lang<javascript>
+
+utils.sha256("0x")
+//!
+
+utils.sha256("0x1234")
+//!
+
+utils.sha512("0x")
+//!
+
+utils.sha512("0x1234")
+//!
+
+
+_subsection: HMAC @<utils--hmac>
+
+_property: fourtwentycoins.utils.computeHmac(algorithm, key, data) => string<[[DataHexString]]>  @<utils-computeHmac> @SRC<sha2>
+Returns the [HMAC](link-wiki-hmac) of //data// with //key//
+using the [Algorithm](utils--hmac-supported-algorithm) //algorithm//.
+
+_heading: **HMAC Supported Algorithms** @<utils--hmac-supported-algorithm> @SRC<sha2:enum.SupportedAlgorithm>
+
+_property: fourtwentycoins.utils.SupportedAlgorithm.sha256 => string
+Use the [SHA2-256](link-wiki-sha2) hash algorithm.
+
+_property: fourtwentycoins.utils.SupportedAlgorithm.sha512 => string
+Use the [SHA2-512](link-wiki-sha2) hash algorithm.
+
+_code: HMAC  @lang<javascript>
+
+const key = "0x0102";
+const data = "0x1234";
+utils.computeHmac("sha256", key, data)
+//!
+
+
+_subsection: Hashing Helpers @<utils--hashing-helpers>
+
+_property: fourtwentycoins.utils.hashMessage(message) => string<[[DataHexString]]<32>>  @<utils-hashMessage> @SRC<hash>
+Computes the [[link-eip-191]] personal message digest of //message//. Personal messages are
+converted to UTF-8 bytes and prefixed with ``\\x19420coin Signed Message:``
+and the length of //message//.
+
+_property: fourtwentycoins.utils.namehash(name) => string<[[DataHexString]]<32>>  @<utils-namehash> @SRC<hash>
+Returns the [ENS Namehash](link-namehash) of //name//.
+
+_code: Hashing Messages  @lang<javascript>
+
+// @TODO: include examples of hashMessage; it can be complex. :)
+
+
+_code: Namehash  @lang<javascript>
+
+utils.namehash("")
+//!
+
+utils.namehash("fourtwenty")
+//!
+
+utils.namehash("ricmoo.firefly.fourtwenty")
+//!
+
+utils.namehash("ricmoo.xyz")
+//!
+
+
+_subsection: Solidity Hashing Algorithms @<utils--solidity-hashing>
+
+When using the Solidity ``abi.packEncoded(...)`` function, a non-standard
+//tightly packed// version of encoding is used. These functions implement
+the tightly packing algorithm.
+
+_property: fourtwentycoins.utils.solidityPack(types, values) => string<[[DataHexString]]>  @<utils-solidityPack> @SRC<solidity:pack>
+Returns the non-standard encoded //values// packed according to
+their respective type in //types//.
+
+_property: fourtwentycoins.utils.solidityKeccak256(types, values) => string<[[DataHexString]]<32>>  @<utils-solidityKeccak256> @SRC<solidity:keccak256>
+Returns the [KECCAK256](link-wiki-sha3) of the non-standard encoded //values// packed
+according to their respective type in //types//.
+
+_property: fourtwentycoins.utils.soliditySha256(types, values) => string<[[DataHexString]]<32>>  @<utils-soliditySha256> @SRC<solidity:sha256>
+Returns the [SHA2-256](link-wiki-sha2) of the non-standard encoded //values// packed
+according to their respective type in //types//.
+
+_code: Solidity Hashing  @lang<javascript>
+
+utils.solidityPack([ "int16", "uint48" ], [ -1, 12 ])
+//!
+
+utils.solidityPack([ "string", "uint8" ], [ "Hello", 3 ])
+//!
+
+utils.solidityKeccak256([ "int16", "uint48" ], [ -1, 12 ])
+//!
+
+utils.soliditySha256([ "int16", "uint48" ], [ -1, 12 ])
+//!
+
