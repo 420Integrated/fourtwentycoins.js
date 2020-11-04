@@ -1,0 +1,7 @@
+"use strict";
+import u2f from "@420integrated/hw-transport-u2f";
+export const transports = {
+    "u2f": u2f,
+    "default": u2f
+};
+//# sourceMappingURL=browser-ledger-transport.js.map

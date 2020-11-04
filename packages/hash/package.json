@@ -1,0 +1,36 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "dependencies": {
+    "@420integrated/abstract-signer": "^5.0.6",
+    "@420integrated/address": "^5.0.5",
+    "@420integrated/bignumber": "^5.0.8",
+    "@420integrated/bytes": "^5.0.4",
+    "@420integrated/keccak256": "^5.0.3",
+    "@420integrated/logger": "^5.0.5",
+    "@420integrated/properties": "^5.0.4",
+    "@420integrated/strings": "^5.0.4"
+  },
+  "description": "Hash utility functions for 420coin.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "fourtwentycoins"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/hash",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tarballHash": "0xd3ced44284f7527cca27da2835c7eaeb117480dc6d459415ece6a672679cd538",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.6"
+}
