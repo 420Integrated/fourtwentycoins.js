@@ -1,0 +1,43 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "dependencies": {
+    "@420integrated/abstract-provider": "^5.0.4",
+    "@420integrated/abstract-signer": "^5.0.4",
+    "@420integrated/address": "^5.0.4",
+    "@420integrated/bignumber": "^5.0.7",
+    "@420integrated/bytes": "^5.0.4",
+    "@420integrated/hash": "^5.0.4",
+    "@420integrated/hdnode": "^5.0.4",
+    "@420integrated/json-wallets": "^5.0.6",
+    "@420integrated/keccak256": "^5.0.3",
+    "@420integrated/logger": "^5.0.5",
+    "@420integrated/properties": "^5.0.3",
+    "@420integrated/random": "^5.0.3",
+    "@420integrated/signing-key": "^5.0.4",
+    "@420integrated/transactions": "^5.0.5",
+    "@420integrated/wordlists": "^5.0.4"
+  },
+  "description": "Classes for managing, encrypting and decrypting 420coin private keys as a Signer for fourtwentycoins.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "fourtwentycoins"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/wallet",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tarballHash": "0xfb6daa970e4ca698f8d4d47c5f5b0ae099c7da00cfe5dd2f06a6636e24a89d0e",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.7"
+}
