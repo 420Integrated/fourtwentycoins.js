@@ -1,0 +1,32 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "dependencies": {
+    "@420integrated/bytes": "^5.0.4",
+    "@420integrated/logger": "^5.0.5",
+    "bn.js": "^4.4.0"
+  },
+  "description": "BigNumber library used in fourtwentycoins.js.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "bignumber",
+    "bn"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/bignumber",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tarballHash": "0x13de0d9c0138d0d056ed658b8f8744fab45fcdf4b52dcd9456bfd7285a4288ce",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.8"
+}
