@@ -1,0 +1,62 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "browser": {
+    "./lib/ipc-provider": "./lib/browser-ipc-provider.js",
+    "net": "./lib/browser-net.js",
+    "ws": "./lib/browser-ws.js"
+  },
+  "browser.esm": {
+    "./lib.esm/ipc-provider": "./lib.esm/browser-ipc-provider.js",
+    "net": "./lib.esm/browser-net.js",
+    "ws": "./lib/browser-ws.js"
+  },
+  "browser.umd": {
+    "./lib/ipc-provider": "./lib/browser-ipc-provider.js",
+    "net": "./lib/browser-net.js",
+    "ws": "./lib/browser-ws.js"
+  },
+  "dependencies": {
+    "@420integrated/abstract-provider": "^5.0.4",
+    "@420integrated/abstract-signer": "^5.0.4",
+    "@420integrated/address": "^5.0.4",
+    "@420integrated/basex": "^5.0.3",
+    "@420integrated/bignumber": "^5.0.7",
+    "@420integrated/bytes": "^5.0.4",
+    "@420integrated/constants": "^5.0.4",
+    "@420integrated/hash": "^5.0.4",
+    "@420integrated/logger": "^5.0.5",
+    "@420integrated/networks": "^5.0.3",
+    "@420integrated/properties": "^5.0.3",
+    "@420integrated/random": "^5.0.3",
+    "@420integrated/rlp": "^5.0.3",
+    "@420integrated/sha2": "^5.0.3",
+    "@420integrated/strings": "^5.0.4",
+    "@420integrated/transactions": "^5.0.5",
+    "@420integrated/web": "^5.0.6",
+    "bech32": "1.1.4",
+    "ws": "7.2.3"
+  },
+  "description": "420coin Providers for fourtwentycoins.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "fourtwentycoins"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/providers",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tarballHash": "0x75f5062536d763196c0bb7681f1de3c93f6d747b799f525295039df8c9c46503",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.14"
+}
