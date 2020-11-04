@@ -1,0 +1,41 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "browser": {
+    "fourtwentycoins": "./lib/browser-fourtwentycoins.js"
+  },
+  "browser.esm": {
+    "fourtwentycoins": "./lib.esm/browser-fourtwentycoins.js"
+  },
+  "browser.umd": {
+    "fourtwentycoins": "./lib/browser-fourtwentycoins.js"
+  },
+  "dependencies": {
+    "@420integrated/cli": "^5.0.4",
+    "@420integrated/testcases": "^5.0.5",
+    "@types/mocha": "^5.2.0",
+    "fourtwentycoins": "^5.0.13"
+  },
+  "description": "Testing package for fourtwentycoins.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "fourtwentycoins"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/tests",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "test": "exit 1"
+  },
+  "tarballHash": "0x9351071005d663f4c8f4b086e8c9364c06a924127a3ff14e52d5478a332dbeb1",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.12"
+}
