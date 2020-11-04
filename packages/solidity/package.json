@@ -1,0 +1,33 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "dependencies": {
+    "@420integrated/bignumber": "^5.0.7",
+    "@420integrated/bytes": "^5.0.4",
+    "@420integrated/keccak256": "^5.0.3",
+    "@420integrated/sha2": "^5.0.3",
+    "@420integrated/strings": "^5.0.4"
+  },
+  "description": "Solidity coder for non-standard (tight) packing.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "fourtwentycoins"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/solidity",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tarballHash": "0x112e6ec1297898adabbae7b963a260230addc7b84bd22da84be60419de8f10b2",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.5"
+}
