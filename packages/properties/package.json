@@ -1,0 +1,31 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "dependencies": {
+    "@420integrated/logger": "^5.0.5"
+  },
+  "description": "Properties utility functions for fourtwentycoins.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "fourtwentycoins"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/properties",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "auto-build": "npm run build -- -w",
+    "build": "tsc -p ./tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tarballHash": "0x1150770f21e18d2b616708ecba357485be3227a8d474ff40edf9ed2603af62b4",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.4"
+}
