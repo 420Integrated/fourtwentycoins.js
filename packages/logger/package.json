@@ -1,0 +1,26 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "description": "Logger utility functions for fourtwentycoins.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "fourtwentycoins"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/logger",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tarballHash": "0xf9537798be6f9a5bf14202fe9222696f1340c305b68b14831fdb8d975c53de7d",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.6"
+}
