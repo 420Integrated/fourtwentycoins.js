@@ -1,0 +1,44 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "bin": {
+    "fourtwentycoins": "./lib/bin/fourtwentycoins.js",
+    "fourtwentycoins-asm": "./lib/bin/fourtwentycoins-asm.js",
+    "fourtwentycoins-ens": "./lib/bin/fourtwentycoins-ens.js",
+    "fourtwentycoins-ts": "./lib/bin/fourtwentycoins-ts.js"
+  },
+  "dependencies": {
+    "@babel/parser": "7.8.4",
+    "@babel/types": "7.8.3",
+    "@420integrated/asm": "^5.0.5",
+    "@420integrated/basex": "^5.0.3",
+    "fourtwentycoins": "^5.0.13",
+    "mime-types": "2.1.11",
+    "scrypt-js": "3.0.1",
+    "solc": "0.7.1",
+    "solidity-parser-antlr": "^0.3.2"
+  },
+  "description": "Command-Line Interface scripts and releated utilities.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "fourtwentycoins",
+    "cli"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/cli",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "test": "exit 1"
+  },
+  "tarballHash": "0xe7e54bdcfdf154ef9e94945a34f84b41c2aca0cf642479c4da9457f5b20e73f5",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.5"
+}
