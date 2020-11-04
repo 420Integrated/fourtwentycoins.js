@@ -1,0 +1,138 @@
+[
+    {
+        "name": "one-proper",
+        "marley": "1000000000000000000",
+        "kmarley": "1000000000000000.0",
+        "mmarley": "1000000000000.0",
+        "gmarley": "1000000000.0",
+        "snoop": "1000000.0",
+        "willie": "1000.0",
+        "420coin": "1.0",
+        "fourtwentycoin_format": "1.0",
+        "willie_format": "1000.0",
+        "snoop_format": "1000000.0",
+        "gmarley_format": "1000000000.0",
+        "mmarley_format": "1000000000000.0",
+        "kmarley_format": "1000000000000000.0"
+    },
+    {
+        "name": "one-bare",
+        "marley": "1000000000000000000",
+        "420coin": "1",
+        "fourtwentycoin_format": "1.0"
+    },
+    {
+        "name": "one-trailing-zero",
+        "marley": "1000000000000000000",
+        "420coin": "1.00",
+        "fourtwentycoin_format": "1.0"
+    },
+    {
+        "name": "one-leading-zero",
+        "marley": "1000000000000000000",
+        "420coin": "01.0",
+        "fourtwentycoin_format": "1.0"
+    },
+    {
+        "name": "negative-one-proper",
+        "marley": "-1000000000000000000",
+        "420coin": "-1.0",
+        "fourtwentycoin_format": "-1.0"
+    },
+    {
+        "name": "negative-one-leading",
+        "marley": "-1000000000000000000",
+        "420coin": "-01.0",
+        "fourtwentycoin_format": "-1.0"
+    },
+    {
+        "name": "tenth-proper",
+        "marley": "100000000000000000",
+        "420coin": "0.1",
+        "fourtwentycoin_format": "0.1"
+    },
+    {
+        "name": "tenth-bare",
+        "marley": "100000000000000000",
+        "420coin": ".1",
+        "fourtwentycoin_format": "0.1"
+    },
+    {
+        "name": "tenth-trailing-zero",
+        "marley": "100000000000000000",
+        "420coin": "0.10",
+        "fourtwentycoin_format": "0.1"
+    },
+    {
+        "name": "tenth-trailing-zeros",
+        "marley": "100000000000000000",
+        "420coin": "0.100",
+        "fourtwentycoin_format": "0.1"
+    },
+    {
+        "name": "tenth-trailing-and-leading",
+        "marley": "100000000000000000",
+        "420coin": "00.100",
+        "fourtwentycoin_format": "0.1"
+    },
+    {
+        "name": "negative-tenth-proper",
+        "marley": "-100000000000000000",
+        "420coin": "-0.1",
+        "fourtwentycoin_format": "-0.1"
+    },
+    {
+        "name": "hundredth-proper",
+        "marley": "10000000000000000",
+        "420coin": "0.01",
+        "fourtwentycoin_format": "0.01"
+    },
+    {
+        "name": "amount-fraction",
+        "marley": "1230000000000000000",
+        "420coin": "1.23",
+        "fourtwentycoin_format": "1.23"
+    },
+    {
+        "name": "amount-negative-fraction",
+        "marley": "-1230000000000000000",
+        "420coin": "-1.23",
+        "fourtwentycoin_format": "-1.23"
+    },
+    {
+        "name": "pad-negative-fraction",
+        "marley": "-1230000000000000000",
+        "420coin": "-1.230000000000000000",
+        "fourtwentycoin_format": "-1.23"
+    },
+    {
+        "name": "one-two-three",
+        "marley": "1234567890000000000000000",
+        "420coin": "1234567.89",
+        "fourtwentycoin_format": "1234567.89"
+    },
+    {
+        "name": "one-two-three-2",
+        "marley": "1234567890000000000000000",
+        "420coin": "1234567.890000000000000000",
+        "fourtwentycoin_format": "1234567.89"
+    },
+    {
+        "name": "one-two-three-3",
+        "marley": "-1234567890123456789012345",
+        "gmarley": "-1234567890123456.789012345",
+        "willie": "-1234567890.123456789012345",
+        "420coin": "-1234567.890123456789012345",
+        "fourtwentycoin_format": "-1234567.890123456789012345",
+        "willie_format": "-1234567890.123456789012345",
+        "gmarley_format": "-1234567890123456.789012345"
+    },
+    {
+        "name": "satoshi",
+        "marley": "-1234567890",
+        "satoshi": "-12.34567890",
+        "satoshi_format": "-12.3456789",
+        "420coin": "-0.000000001234567890",
+        "fourtwentycoin_format": "-0.00000000123456789"
+    }
+]
