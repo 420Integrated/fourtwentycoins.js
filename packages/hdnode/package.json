@@ -1,0 +1,40 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "dependencies": {
+    "@420integrated/abstract-signer": "^5.0.4",
+    "@420integrated/basex": "^5.0.3",
+    "@420integrated/bignumber": "^5.0.7",
+    "@420integrated/bytes": "^5.0.4",
+    "@420integrated/logger": "^5.0.5",
+    "@420integrated/pbkdf2": "^5.0.3",
+    "@420integrated/properties": "^5.0.3",
+    "@420integrated/sha2": "^5.0.3",
+    "@420integrated/signing-key": "^5.0.4",
+    "@420integrated/strings": "^5.0.4",
+    "@420integrated/transactions": "^5.0.5",
+    "@420integrated/wordlists": "^5.0.4"
+  },
+  "description": "BIP32 Hierarchal Deterministic Node operations.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "fourtwentycoins"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/hdnode",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tarballHash": "0xc198bf952694f69869fa084578b644c4bc0541a0aaf803da3fb026cace875659",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.5"
+}
