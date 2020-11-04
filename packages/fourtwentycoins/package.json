@@ -1,0 +1,56 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "browser": "./dist/fourtwentycoins.umd.js",
+  "dependencies": {
+    "@420integrated/abi": "5.0.7",
+    "@420integrated/abstract-provider": "5.0.5",
+    "@420integrated/abstract-signer": "5.0.7",
+    "@420integrated/address": "5.0.5",
+    "@420integrated/base64": "5.0.4",
+    "@420integrated/basex": "5.0.4",
+    "@420integrated/bignumber": "5.0.8",
+    "@420integrated/bytes": "5.0.5",
+    "@420integrated/constants": "5.0.5",
+    "@420integrated/contracts": "5.0.5",
+    "@420integrated/hash": "5.0.6",
+    "@420integrated/hdnode": "5.0.5",
+    "@420integrated/json-wallets": "5.0.7",
+    "@420integrated/keccak256": "5.0.4",
+    "@420integrated/logger": "5.0.6",
+    "@420integrated/networks": "5.0.4",
+    "@420integrated/pbkdf2": "5.0.4",
+    "@420integrated/properties": "5.0.4",
+    "@420integrated/providers": "5.0.14",
+    "@420integrated/random": "5.0.4",
+    "@420integrated/rlp": "5.0.4",
+    "@420integrated/sha2": "5.0.4",
+    "@420integrated/signing-key": "5.0.5",
+    "@420integrated/solidity": "5.0.5",
+    "@420integrated/strings": "5.0.5",
+    "@420integrated/transactions": "5.0.6",
+    "@420integrated/units": "5.0.6",
+    "@420integrated/wallet": "5.0.7",
+    "@420integrated/web": "5.0.9",
+    "@420integrated/wordlists": "5.0.5"
+  },
+  "description": "Umbrella package for most common Fourtwentycoins libraries.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "fourtwentycoins"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./dist/fourtwentycoins.esm.js",
+  "name": "fourtwentycoins",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tarballHash": "0xf093f00a83d38639d15610b1b52db1512c582d817c0fab52d2e1f0049e748d03",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.19"
+}
