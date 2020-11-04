@@ -1,0 +1,31 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "dependencies": {
+    "@420integrated/bytes": "^5.0.4",
+    "@420integrated/logger": "^5.0.5"
+  },
+  "description": "Recursive-Length Prefix (RLP) coder.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "fourtwentycoins",
+    "rlp"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/rlp",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tarballHash": "0x2a870663cf91328de26e8b3e5cb1ac3004eefa78ffbdad7b08b61c2685c3f018",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.4"
+}
