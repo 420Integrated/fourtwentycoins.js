@@ -1,0 +1,32 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "browser": "./lib/browser.js",
+  "browser.esm": "./lib.esm/browser.js",
+  "browser.umd": "./lib/browser.js",
+  "dependencies": {
+    "@420integrated/bytes": "^5.0.4"
+  },
+  "description": "Base64 coder.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "fourtwentycoins"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/base64",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tarballHash": "0xf9edd66aa5131bf0bca2ea188265e0e333d781e4b0ef5e92090a7cef8556cb30",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.4"
+}

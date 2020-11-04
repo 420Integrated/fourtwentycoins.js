@@ -1,0 +1,31 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "dependencies": {
+    "fourtwentycoins": "^5.0.13"
+  },
+  "description": "ASM libraries and tools for the 420coin EVM.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "asm",
+    "evm"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/asm",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "generate": "node ./generate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tarballHash": "0x29773f2f77c16dcd4e7f6cb0cc1929a249f165cfc128380558a64cc5dff87cb7",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.6"
+}
