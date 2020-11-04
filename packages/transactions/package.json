@@ -1,0 +1,37 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "dependencies": {
+    "@420integrated/address": "^5.0.4",
+    "@420integrated/bignumber": "^5.0.7",
+    "@420integrated/bytes": "^5.0.4",
+    "@420integrated/constants": "^5.0.4",
+    "@420integrated/keccak256": "^5.0.3",
+    "@420integrated/logger": "^5.0.5",
+    "@420integrated/properties": "^5.0.3",
+    "@420integrated/rlp": "^5.0.3",
+    "@420integrated/signing-key": "^5.0.4"
+  },
+  "description": "Utilities for decoding and encoding 420coin transaction for fourtwentycoins.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "fourtwentycoins"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/transactions",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tarballHash": "0x892a42c68798431329aabf5c14b72f357c85b8f0a86439c9f158becf66f7c600",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.6"
+}
