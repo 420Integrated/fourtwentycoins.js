@@ -1,0 +1,46 @@
+{
+  "_devDependencies": {
+    "@420integrated/cli": "^5.0.0",
+    "@types/bip39": "2.4.1",
+    "@types/bitcoinjs-lib": "3.3.2",
+    "bip39": "2.5.0",
+    "bitcoinjs-lib": "3.3.2",
+    "fourtwentyjs-tx": "^1.3.5",
+    "fourtwentyjs-util": "^5.2.0"
+  },
+  "author": "Richard Moore <me@ricmoo.com>",
+  "browser": "./lib/browser.js",
+  "browser.esm": "./lib.esm/browser.js",
+  "browser.umd": "./lib/browser.js",
+  "dependencies": {
+    "@420integrated/bignumber": "^5.0.7",
+    "@420integrated/bytes": "^5.0.4",
+    "@420integrated/keccak256": "^5.0.3",
+    "@420integrated/strings": "^5.0.4",
+    "browserify-zlib": "^0.2.0",
+    "fourtwentycoins": "^5.0.13"
+  },
+  "description": "Testcases for 420coin and scripts to generate testcases.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "fourtwentycoins"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/testcases",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tarballHash": "0x6ce4c86cf19b2a2d9859cced252e0c057bc1a8034710415c7ccc1ed54f6313b6",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.7"
+}
