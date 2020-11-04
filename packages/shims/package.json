@@ -1,0 +1,28 @@
+{
+  "_fourtwentycoins_nobuild": true,
+  "author": "Richard Moore <me@ricmoo.com>",
+  "browser": "./dist/index.min.js",
+  "description": "Shims required for fourtwentycoins in constrained environments.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "fourtwentycoins"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/shims",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tarballHash": "0x85af07a3f742fa175893245a1b4f1430a32d0f0fbd962cacdeb5f880fcbbc0d8",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.7"
+}

@@ -1,0 +1,32 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "dependencies": {
+    "@420integrated/bytes": "^5.0.4",
+    "@420integrated/logger": "^5.0.5",
+    "@420integrated/properties": "^5.0.3",
+    "elliptic": "6.5.3"
+  },
+  "description": "Elliptic curve library functions for the secp256k1 curve.",
+  "fourtwenty": "donations.fourtwentycoins.fourtwenty",
+  "keywords": [
+    "420coin",
+    "fourtwentycoins"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@420integrated/signing-key",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/420integrated/fourtwentycoins.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "tarballHash": "0x7cdf71e1b21bab0612477150eae44b06dd82783fe23faa75e0e216c75b93d73c",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.5"
+}
